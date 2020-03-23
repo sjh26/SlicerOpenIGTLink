@@ -1,7 +1,7 @@
 set(proj OpenIGTLink)
 
 # Set dependency list
-set(${proj}_DEPENDS "")
+set(${proj}_DEPENDS ITK)
 if(SlicerOpenIGTLink_USE_VP9)
   list(APPEND ${proj}_DEPENDS VP9)
 endif()
